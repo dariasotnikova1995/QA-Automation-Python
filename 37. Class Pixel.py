@@ -1,4 +1,5 @@
 class Pixel:
+
     def __init__(self, red, green, blue):
         for component in (red, green, blue):
             if not (0 <= component <= 255):
