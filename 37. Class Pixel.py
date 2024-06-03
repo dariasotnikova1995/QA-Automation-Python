@@ -68,6 +68,6 @@ class Pixel:
 
 print(Pixel(0, 1, 2) + Pixel(1, 2, 255))
 print(Pixel(10, 20, 30) - Pixel(10, 30, 40))
-print(Pixel(1, 10, 100) * 3.5)  # Pixel(3, 35, 255)
-print(Pixel(30, 2, 22) / 3)  # Pixel(10, 0, 7)
+print(Pixel(1, 10, 100) * 3.5)
+print(Pixel(30, 2, 22) / 3)
 print(Pixel(1, 2, 3) == Pixel(1, 2, 3))
